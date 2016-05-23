@@ -3,7 +3,7 @@ package io.pkp.daggermvp.model;
 /**
  * Created by praveen on 5/29/16.
  */
-public class ElectricHeater implements IHeater {
+public class ElectricHeater implements Heater {
     boolean heating;
 
     @Override public void on() {

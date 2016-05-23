@@ -5,11 +5,11 @@ import javax.inject.Inject;
 /**
  * Created by praveen on 5/29/16.
  */
-public class Thermosiphon implements IPump{
-    private final IHeater heater;
+public class Thermosiphon implements Pump {
+    private final Heater heater;
 
     @Inject
-    Thermosiphon(IHeater heater) {
+    Thermosiphon(Heater heater) {
         this.heater = heater;
     }
 
